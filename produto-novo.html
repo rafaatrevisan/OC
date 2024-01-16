@@ -1,0 +1,84 @@
+<html lang="pt-br">
+
+<head>
+<title>OpenControl</title> 
+<link rel="icon" type="imagem/png" href="open.png" />
+<meta charset="utf-8">
+<link href="a.css" rel="stylesheet">
+</head>
+
+<main>
+  <section class="container">
+    <!-- login -->
+    <div class="login">
+        
+     
+        <strong>Open Control</strong>
+        <div class="color">
+        </div>
+
+        <div class="l">
+            <span>Cadastre o produto!</span>
+        </div>
+      
+
+      <form action="produto-novo.php" method="post">
+        <fieldset>
+
+          <div class="form">
+            <div class="form-row">
+              <label class="form-label" for="input" >Marca</label>
+              <input type="text" class="form-text" placeholder="Marca do produto" name="marca" required>
+            </div>
+
+       
+              <div class="form-row">
+                <label class="form-label" for="input" >Modelo</label>
+                <input type="text" class="form-text" placeholder="Modelo do produto" name="modelo" required>
+              </div>
+
+           
+                <div class="form-row">
+                  <label class="form-label" for="input" >Quantidade</label>
+                  <input type="number" class="form-text" placeholder="Quantidade do produto" name="qntd" required>
+                </div>
+
+               
+                  <div class="form-row">
+                    <label class="form-label" for="input" >Peso</label>
+                    <input type="text" class="form-text" placeholder="Peso do produto" name="peso" required>
+                  </div>
+
+                 
+                    <div class="form-row">
+                      <label class="form-label" for="input" >Fornecedor</label>
+                      <input type="text" class="form-text" placeholder="Fornecedor do produto" name="fornecedor" required>
+                    </div>
+
+                    <div class="form-row">
+                      <label class="form-label" for="input" >Lote</label>
+                      <input type="text" class="form-text" placeholder="Lote do produto" name="lote" required>
+                    </div>
+
+                    <div class="form-row">
+                      <label class="form-label" for="input" >Nota fiscal</label>
+                      <input type="text" class="form-text" placeholder="Nota fiscal do produto" name="nota_fiscal" required>
+                    </div>
+
+                    <div class="form-row">
+                      <label class="form-label" for="input" >Data de validade</label>
+                      <input type="date" class="form-text" name="data_validade" required>
+                    </div>
+                    
+              <button class="btn btn-login">Cadastrar <i class="fas fa-arrow-right"></i></button>
+              <a href="index.html" class="btn btn-login">Voltar</a>
+
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    </div>
+  </section>
+</main>
+</div>
+</html>
